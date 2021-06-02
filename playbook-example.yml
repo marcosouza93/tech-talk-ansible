@@ -1,0 +1,7 @@
+---
+- name: Implantar frontend
+  hosts: frontend
+  become: yes
+  gather_facts: no
+  roles:
+  - frontend

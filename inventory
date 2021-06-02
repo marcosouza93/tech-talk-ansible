@@ -1,0 +1,10 @@
+[frontend]
+servidorA ansible_host=3.129.8.166 ansible_user=ubuntu
+
+[backend]
+18.220.230.155
+3.128.120.137
+
+[prod:children]
+frontend
+backend
